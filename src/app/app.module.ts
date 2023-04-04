@@ -21,7 +21,7 @@ import {MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
-
+import {DragDropModule} from '@angular/cdk/drag-drop';
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,7 +47,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
    MatTableModule,
    MatPaginatorModule,
    MatSortModule,
-   MatSnackBarModule
+   MatSnackBarModule,
+   DragDropModule
     
   ],
   providers: [],
